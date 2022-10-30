@@ -1,0 +1,178 @@
+:root{
+    /*=================
+        colors
+      =================*/
+
+    /*=================
+        primary colors
+      =================*/
+    
+    --primary-cyan: hsl(179, 62%, 43%);
+    --primary-bright-yellow: hsl(71, 73%, 54%);
+
+    /*=================
+        nerutral colors
+      =================*/
+
+    --neutral-ligth-gray: hsl(204, 43%, 93%);
+    --neutral-grayish-blue: hsl(218, 22%, 67%);
+
+    /*=================
+        typography
+      =================*/    
+      
+    /*=================
+        body copy
+      =================*/
+
+    --font-size: 1rem;
+
+    /*=================
+        font
+      =================*/
+      
+    --font-family: "Karla", sans-sarif;
+    --weigth-400: 400;
+    --weigth-700: 700;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--neutral-light-gray);
+    color: white;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.card{
+    max-width: 80%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.2);
+}
+
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.community-section,
+.monthly-section,
+.why-us-section{
+    padding: 2rem;
+}
+
+.monthly-main-heading,
+.why-us-main-heading{
+    font-size: large;
+}
+
+/*===================
+community-section
+===================*/
+.community-main-heading{
+    color: var(--primary-cyan);
+}
+
+.community-sub-heading{
+    color: var(--primary-bright-yellow);
+    font-weight: var(--weigth-700);
+    margin: 1rem 0;
+}
+
+.community-pargraph{
+    color: var(--neutral-grayish-blue);
+    line-height: 1.8rem;
+}
+
+/*===================
+monthly-section
+===================*/
+
+.monthly-section{
+    background-color: var(--primary-cyan); 
+}
+
+.monthly-list{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.monthly-list li{
+    display: inline-block;
+}
+
+.monthly-amount{
+    color: var(--neutral-ligth-gray);
+    font-size: x-large;
+    margin-right: 0.5rem;
+}
+
+.monthly-paragraph-one{
+    transform: translateY(-4px);
+}
+
+.monthly-paragraph-two{
+    margin: 0.5rem 0 1.8rem 0;
+}
+
+.monthly-btn-sign-up{
+    background-color: var(--primary-bright-yellow);
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 1.5rem 0.5rem rgba(0, 0, 0, 0.1));
+}
+
+/*===================
+why-us-section
+===================*/
+.why-us-section{
+    background-color: hsla(179, 62%, 43%, 0.75);
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.why-us-main-heading{
+    margin-bottom: 0.8rem;
+}
+
+.why-us-list{
+    color: var(--neutral-ligth-gray);
+    list-style-type: none;
+    line-height: 1.2rem;
+}
+
+
+@media  screen and (min-width: 480px) {
+    .community-section{
+        max-width: 600px;
+    }
+
+    .monthly-section{
+        border-radius: 0 0 0 0.5rem;
+    }
+
+    .why-us-section{
+        border-radius: 0 0 0.5rem 0;
+    }
+
+    .bottom-section{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .monthly-section,
+    .why-us-section{
+        width: 50%;
+    }   
+}
