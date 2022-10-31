@@ -79,7 +79,7 @@ body{
 community-section
 ===================*/
 .community-section{
-    background-color: var(--neutral-ligth-gray);
+    background-color: white;
 }
 
 .community-main-heading{
@@ -90,6 +90,7 @@ community-section
     color: var(--primary-bright-yellow);
     font-weight: var(--weigth-700);
     margin: 1rem 0;
+    letter-spacing: 0.2ch;
 }
 
 .community-pargraph{
@@ -100,7 +101,6 @@ community-section
 /*===================
 monthly-section
 ===================*/
-
 .monthly-section{
     background-color: var(--primary-cyan); 
 }
@@ -126,6 +126,7 @@ monthly-section
 
 .monthly-paragraph{
     margin: 0.5rem 0 1.8rem 0;
+    font-size: 0.9375rem;
 }
 
 .btn-sign-up{
