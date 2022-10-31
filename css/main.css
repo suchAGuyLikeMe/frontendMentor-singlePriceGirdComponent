@@ -71,7 +71,7 @@ body{
 }
 
 .monthly-main-heading,
-.why-us-main-heading{
+.library-main-heading{
     font-size: large;
 }
 
@@ -126,7 +126,6 @@ monthly-section
 
 .monthly-paragraph{
     margin: 0.5rem 0 1.8rem 0;
-    font-size: 0.9375rem;
 }
 
 .btn-sign-up{
@@ -144,15 +143,12 @@ monthly-section
 library-section
 ===================*/
 .library-section{
-    background-color: hsla(179, 62%, 43%, 0.75);
-}
-
-.library-main-heading{
-    margin-bottom: 0.8rem;
+    background-color: hsla(179, 62%, 43%, 0.6);
 }
 
 .library-list{
     color: var(--neutral-ligth-gray);
+    margin-top: 1rem;
     list-style-type: none;
     line-height: 1.2rem;
 }
@@ -160,7 +156,7 @@ library-section
 
 @media  screen and (min-width: 480px) {
     .community-section{
-        max-width: 600px;
+        max-width: 620px;
     }
 
     .bottom-section{

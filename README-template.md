@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/reponsive-single-price-grid-component-aqHL8rvAjS)
 - Live Site URL: (https://suchaguylikeme-singlepricegridcomponent.pages.dev/)
 
 ## My process
