@@ -65,7 +65,7 @@ body{
 
 .community-section,
 .monthly-section,
-.why-us-section{
+.library-section{
     padding: 2rem;
 }
 
@@ -109,21 +109,21 @@ monthly-section
     display: inline-block;
 }
 
-.monthly-amount{
+.amount-item{
     color: var(--neutral-ligth-gray);
     font-size: x-large;
     margin-right: 0.5rem;
 }
 
-.monthly-paragraph-one{
+.monthly-item{
     transform: translateY(-4px);
 }
 
-.monthly-paragraph-two{
+.monthly-paragraph{
     margin: 0.5rem 0 1.8rem 0;
 }
 
-.monthly-btn-sign-up{
+.btn-sign-up{
     background-color: var(--primary-bright-yellow);
     color: white;
     letter-spacing: 1px;
@@ -135,18 +135,18 @@ monthly-section
 }
 
 /*===================
-why-us-section
+library-section
 ===================*/
-.why-us-section{
+.library-section{
     background-color: hsla(179, 62%, 43%, 0.75);
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
-.why-us-main-heading{
+.library-main-heading{
     margin-bottom: 0.8rem;
 }
 
-.why-us-list{
+.library-list{
     color: var(--neutral-ligth-gray);
     list-style-type: none;
     line-height: 1.2rem;
@@ -162,7 +162,7 @@ why-us-section
         border-radius: 0 0 0 0.5rem;
     }
 
-    .why-us-section{
+    .library-section{
         border-radius: 0 0 0.5rem 0;
     }
 
@@ -172,7 +172,7 @@ why-us-section
     }
 
     .monthly-section,
-    .why-us-section{
+    .library-section{
         width: 50%;
     }   
 }
