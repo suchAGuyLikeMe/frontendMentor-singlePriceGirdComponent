@@ -158,6 +158,11 @@ library-section
         max-width: 600px;
     }
 
+    .bottom-section{
+        display: flex;
+        flex-direction: row;
+    }
+    
     .monthly-section{
         border-radius: 0 0 0 0.5rem;
     }
@@ -166,10 +171,6 @@ library-section
         border-radius: 0 0 0.5rem 0;
     }
 
-    .bottom-section{
-        display: flex;
-        flex-direction: row;
-    }
 
     .monthly-section,
     .library-section{
